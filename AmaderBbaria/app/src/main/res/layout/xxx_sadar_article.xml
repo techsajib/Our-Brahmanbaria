@@ -1,0 +1,223 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154360"
+    tools:context="com.techsajib.amaderbbaria.HomeProfile.TouristPlace.Article.SadarArticle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/firstSarail"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#00BBF0"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"
+                android:padding="12dp"
+                android:text="@string/sadarName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/titasRiver"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/titasRiverDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/titasRiverContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/badoghorName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/badoghorDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/badoghorContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/ulchaparaName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/ulchaparaDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/ulchaparaContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/kalboirobName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/kalboirobDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/kalboirobContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/farukiParkName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/farukiParkDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/farukiParkContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/hironnomoyName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/hironnomoyDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/hironnomoyContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/othersSadar"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

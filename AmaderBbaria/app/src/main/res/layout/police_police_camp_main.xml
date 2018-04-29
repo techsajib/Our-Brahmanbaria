@@ -1,0 +1,279 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.PoliceStation.PoliceCamp.PoliceCampMain">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:padding="10dp"
+           android:background="#2c6078"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="সদর ১নং পুলিশ ফাঁড়ি"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:gravity="center"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/policecamp1"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:padding="10dp"
+           android:background="#2c6078"
+           android:orientation="vertical"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="সদর ২নং পুলিশ ফাঁড়ি"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:gravity="center"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/policecamp2"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:padding="10dp"
+           android:background="#2c6078"
+           android:orientation="vertical"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ইসলামপুর পুলিশ ফাঁড়ি"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:gravity="center"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/policecamp3"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:padding="10dp"
+           android:background="#2c6078"
+           android:orientation="vertical"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ধরখার পুলিশ ফাঁড়ি"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:gravity="center"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/policecamp4"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:padding="10dp"
+           android:background="#2c6078"
+           android:orientation="vertical"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ছলিমগঞ্জ নৌ পুলিশ ফাঁড়ী"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:gravity="center"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/policecamp5"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:padding="10dp"
+           android:background="#2c6078"
+           android:orientation="vertical"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ব্রাহ্মণবাড়িয়া জেলার ক্যাম্প সমূহ"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:gravity="center"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০১। শাহবাজপুর পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০২। অরুয়াইল পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০৩। টোলপ্লাজা পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০৪। চম্পকনগর পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০৫। শিবপুর পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০৬। সারকারখানা পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="০৭। ছলিমগঞ্জ পুলিশ ক্যাম্প"
+               android:textColor="#ffffff"
+               android:textSize="18dp"
+               android:padding="5dp"
+               android:textStyle="normal"
+               android:layout_marginTop="5dp"/>
+
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+</ScrollView>

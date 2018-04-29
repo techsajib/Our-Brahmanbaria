@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.UpozilaUnion.UpozilaUnionMain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/sadar_upozila"
+                android:text="সদর উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/sarail_upozila"
+                android:layout_marginTop="8dp"
+                android:text="সরাইল উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/ashuganj_upozila"
+                android:layout_marginTop="8dp"
+                android:text="আশুগঞ্জ উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/nasirnagar_upozila"
+                android:layout_marginTop="8dp"
+                android:text="নাসিরনগর উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/nabinagar_upozila"
+                android:layout_marginTop="8dp"
+                android:text="নবীনগর উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/kasba_upozila"
+                android:text="কসবা উপজেলা"
+                android:layout_marginTop="8dp"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/bancharampur_upozila"
+                android:layout_marginTop="8dp"
+                android:text="বাঞ্ছারামপুর উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/akhaura_upozila"
+                android:layout_marginTop="8dp"
+                android:text="আখাউড়া উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/bijaynagar_upozila"
+                android:layout_marginTop="8dp"
+                android:text="বিজয়নগর উপজেলা"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

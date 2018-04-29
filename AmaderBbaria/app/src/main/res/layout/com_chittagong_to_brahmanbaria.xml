@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.techsajib.amaderbbaria.CommunicationSystem.BusService.ChittagongtoBB">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="210dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নামঃ বৈশাখী পরিবহন"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যাত্রাস্থানঃ চট্টগ্রাম কদমতলী"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ছাড়ার সময়ঃ সকাল ৭.৩০ হতে রাত ৩.৩০ টা পর্যন্ত।"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যাত্রী ভাড়াঃ ২৫০/="
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* প্রতি ১৫ মিনিট অন্তর অন্তর বাস ছাড়া হয়।"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>

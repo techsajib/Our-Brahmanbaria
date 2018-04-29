@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#2D6E7E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Bangladesh"
+        android:id="@+id/lblListItem"
+        android:textSize="18sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#f6f7f8"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.techsajib.amaderbbaria.EducationInstituteList.EducationInstituteMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/instituteAdView"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8230275109768142/8666664290">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/firstInstitute"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/collegeUniversity_cardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/universityicon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="কলেজসমূহ"
+                        android:textColor="#000"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/medicalCollege_cardview"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/locationmain"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/medicalicon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="মেডিকেল কলেজ"
+                        android:textColor="#000"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondInstitute"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/engineeringCollegeCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/districtLogo"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/engineeringicon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="ইঞ্জিনিয়ারিং কলেজ"
+                        android:textColor="#000"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/schoolCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/fffacebook"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/schoolicon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="বিদ্যালয়সমূহ"
+                        android:textColor="#000"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdInstitute"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/qawmiMadrasaCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/qawmiicon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="কওমী মাদ্রাসা"
+                        android:textColor="#000"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aliaMadrasaCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/aliaicon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="আলিয়া মাদ্রাসা"
+                        android:textColor="#000"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

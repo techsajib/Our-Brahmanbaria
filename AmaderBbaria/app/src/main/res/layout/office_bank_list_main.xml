@@ -1,0 +1,2405 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.OfficeBankList.BankList.BankListMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সোনালী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  সোনালী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  প্রিন্সিপাল অফিস"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801714-013198"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.sonalibank.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে বিভিন্ন উপজেলা প্রায় ২৩টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জনতা ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  জনতা ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  আঞ্চলিক কার্যালয়"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-4033944"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.jb.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে বিভিন্ন উপজেলা প্রায় ২১টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অগ্রণী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  অগ্রণী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  আঞ্চলিক কার্যালয়"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801819-413017"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড, সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.agranibank.org"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০৩টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বাংলাদেশ কৃষি ব্যাংক"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  বাংলাদেশ কৃষি ব্যাংক"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  মূখ্য আঞ্চলিক কার্যালয়"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801715-055865"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কালাইশ্রী পাড়া, সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.krishibank.org.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে বিভিন্ন উপজেলা প্রায় ২৭টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পূবালী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  পূবালী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801711-437486"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.pubalibangla.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০৩টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="উত্তরা ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  উত্তরা ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +880199-1144305"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.uttarabank-bd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০২টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="স্ট্যান্ডার্ড ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  স্ট্যান্ডার্ড ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +880172-6264854"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.standardbankbd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ন্যাশনাল ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ন্যাশনাল ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সিনেমা রোড, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.nblbd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ইসলামী ব্যাংক বাংলাদেশ লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ইসলামী ব্যাংক বাংলাদেশ লিমিটেড।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801711-889942"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড শাখা, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.islamibankbd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আল আরাফাহ ইসলামী ব্যাংক"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আল আরাফাহ ইসলামী ব্যাংক"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801827-563888"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.al-arafahbank.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০৫টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সাউথ ইস্ট ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  সাউথ ইস্ট ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-081613"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কালাইশ্রীপাড়া, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.southeastbank.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আইএফআইসি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আইএফআইসি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801711-439720"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.ificbank.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="দি সিটি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  দি সিটি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কাউতলী, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.thecitybank.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="রুপালী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  রুপালী ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.rupalibank.org"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="এবি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  এবি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801716-112424"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.abbl.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="এনসিসি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  এনসিসি ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.nccbank.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০২টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ব্রাক ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাক ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.bracbank.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০১টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ইউনাইটেড কমার্শিয়াল ব্যাংক লি:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ইউনাইটেড কমার্শিয়াল ব্যাংক লি:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.ucb.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০২টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="শাহজালাল ইসলামী ব্যাংক লি:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  শাহজালাল ইসলামী ব্যাংক লি:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801720-404606"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.sjiblbd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০১টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ডাচ বাংলা ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ডাচ বাংলা ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +880193-8801650"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  কোর্ট রোড, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.dutchbanglabank.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ওয়ান ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ওয়ান ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801755-594066"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.onebank.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মিউচুয়াল ট্রাস্ট ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  মিউচুয়াল ট্রাস্ট ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.mutualtrustbank.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="প্রিমিয়ার ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  প্রিমিয়ার ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801748-954805"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.premierbankltd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="প্রাইম ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  প্রাইম ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801755-645488"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.primebank.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ইস্টার্ন ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ইস্টার্ন ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.ebl.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ফাস্ট সিকিউরিটি ইসলামী ব্যাংক লি:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ফাস্ট সিকিউরিটি ইসলামী ব্যাংক লি:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +880170-8160243"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.fsiblbd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ব্যাংক এশিয়া"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ব্যাংক এশিয়া"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801753-711966"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.bankasia-bd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="দি ফারমার্স ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  দি ফারমার্স ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801715-012591"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.farmersbankbd.com"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বিডিবিএল ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  বিডিবিএল ব্যাংক লিমিটেড"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ব্রাহ্মণবাড়িয়া শাখা।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bank"
+                android:drawableLeft="@drawable/bank"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801711-396936 "
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.bdbl.com.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  *** ব্রাহ্মণবাড়িয়াতে আরো ০২টি শাখা রয়েছে এই ব্যাংকের।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

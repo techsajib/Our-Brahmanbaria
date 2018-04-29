@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:gravity="center"
+        android:background="#154360"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/unionOfficeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  TextView"
+            android:layout_marginTop="3dp"
+            android:textColor="#f6f7f8"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/home"
+            android:drawableLeft="@drawable/home"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chairmanNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Zela Parishad, brahmanbaria"
+            android:textColor="#f6f7f8"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/chairman"
+            android:drawableLeft="@drawable/chairman"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/chairmanAddressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Uttara, Dhaka, Bangladesh"
+            android:textColor="#f6f7f8"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/location"
+            android:drawableLeft="@drawable/location"
+            android:layout_marginTop="10dp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

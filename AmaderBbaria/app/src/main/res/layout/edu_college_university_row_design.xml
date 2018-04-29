@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:gravity="center"
+        android:background="#0b7aa3"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/collegeImage"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/collegeUniversityText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="  College University Name"
+                    android:textColor="#ecebeb"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:drawableStart="@drawable/college"
+                    android:drawableLeft="@drawable/college"/>
+
+                <TextView
+                    android:id="@+id/collegeplacedText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/placed"
+                    android:drawableStart="@drawable/placed"
+                    android:text="  placed"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/collegelocationText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Uttara, Dhaka, Bangladesh"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/location"
+                    android:drawableLeft="@drawable/location"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

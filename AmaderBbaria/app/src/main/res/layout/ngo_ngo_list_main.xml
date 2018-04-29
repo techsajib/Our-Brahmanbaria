@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.OfficeBankList.NGOList.NGOListMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ngoLinearLayout"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/ngoListView"
+            android:layout_height="4600dp" />
+
+    </LinearLayout>
+
+</ScrollView>

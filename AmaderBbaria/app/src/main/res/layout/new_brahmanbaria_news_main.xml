@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.OnlineNews.BrahmanbariaNewsMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/amaderbrahmanbaria"
+                android:text="আমাদের ব্রাহ্মণবাড়িয়া"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/dailybrahmanbaria"
+                android:layout_marginTop="8dp"
+                android:text="ডেইলি ব্রাহ্মণবাড়িয়া"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/pothiknews"
+                android:layout_marginTop="8dp"
+                android:text="পথিক নিউজ"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/brahmanbaria"
+                android:layout_marginTop="8dp"
+                android:text="ব্রাহ্মণবাড়িয়া২৪ "
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/dindarpan"
+                android:layout_marginTop="8dp"
+                android:text="দিন দর্পণ"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/ekusheralo24"
+                android:text="একুশের আলো"
+                android:layout_marginTop="8dp"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/sarailnews24"
+                android:layout_marginTop="8dp"
+                android:text="সরাইল নিউজ২৪"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/akhaura"
+                android:layout_marginTop="8dp"
+                android:text="আখাউড়া ডট কম"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/bijoynagarnews"
+                android:layout_marginTop="8dp"
+                android:text="বিজয়নগর নিউজ"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/bijoynagarcom"
+                android:layout_marginTop="8dp"
+                android:text="বিজয়নগর ডট কম"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+
+            <Button
+                android:id="@+id/ekattorkhobor"
+                android:layout_marginTop="8dp"
+                android:text="একাত্তর খবর"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/nabinagarnews24"
+                android:layout_marginTop="8dp"
+                android:text="নবীনগর২৪"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

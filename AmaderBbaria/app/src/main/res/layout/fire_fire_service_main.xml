@@ -1,0 +1,318 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.FireService.FireServiceMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ব্রাহ্মণবাড়িয়া ফায়ার সার্ভিস ও সিভিল ডিফেন্স।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:id="@+id/email"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/firestation"
+                android:drawableLeft="@drawable/firestation"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  61111"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/telephone"
+                android:drawableLeft="@drawable/telephone"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801730-002879"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/bbphone"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+
+
+            <TextView
+                android:id="@+id/bbfireService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.fireservice.brahmanbaria.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  সদর, ব্রাহ্মণবাড়িয়া।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#223376"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আশুগঞ্জ ফায়ার সার্ভিস ও সিভিল ডিফেন্স।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:id="@+id/emil"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/firestation"
+                android:drawableLeft="@drawable/firestation"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  08528-74220"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/telephone"
+                android:drawableLeft="@drawable/telephone"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801730-002480"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/phne"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+
+
+            <TextView
+                android:id="@+id/asfireService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.fireservice.brahmanbaria.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আশুগঞ্জ, ব্রাহ্মণবাড়িয়া।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আখাউড়া ফায়ার সার্ভিস ও সিভিল ডিফেন্স।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:id="@+id/eemil"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/firestation"
+                android:drawableLeft="@drawable/firestation"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  08522-56016"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/telephone"
+                android:drawableLeft="@drawable/telephone"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801730-002483"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/phdne"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+
+
+            <TextView
+                android:id="@+id/akfireService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.fireservice.brahmanbaria.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আখাউড়া, ব্রাহ্মণবাড়িয়া।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#223376"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  কসবা কুটি ফায়ার স্টেশন।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:id="@+id/emasil"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/firestation"
+                android:drawableLeft="@drawable/firestation"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801745-481244"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/phdsne"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+
+
+            <TextView
+                android:id="@+id/ksfireService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.fireservice.brahmanbaria.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  কুটি, কসবা, ব্রাহ্মণবাড়িয়া।"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/location"
+                android:drawableLeft="@drawable/location"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

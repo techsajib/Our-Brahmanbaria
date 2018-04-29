@@ -1,0 +1,324 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.PoliceStation.PoliceSuper.PoliceSuperMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/sangshadImage"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/policesuper" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আনোয়ার হোসেন খান"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/email"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  পুলিশ সুপার, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  57680"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/telephone"
+                android:drawableLeft="@drawable/telephone"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-373724"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/bbphone"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  spbrahmmanbaria@police.gov.bd"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/assissp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  মোহাম্মদ ইকবাল হোসাইন"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  অতিরিক্ত পুলিশ সুপার, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-373725"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" addlspbrahmanbaria@hotmail.com"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/srasissp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আবু সাঈদ"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সিনিয়র সহকারি পুলিশ সুপার, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-373726"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/asiswoman" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  সোনিয়া পারভীন"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policewoman"
+                android:drawableLeft="@drawable/policewoman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" সহকারি পুলিশ সুপার, ব্রাহ্মণবাড়িয়া।"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801769-691930"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  spdsbbrahmanbaria@police.gov.bd"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

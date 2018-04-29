@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.CommunicationSystem.TrainService.UpTrainTimeSchedule.UpTrainRent.UpTrainRentMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/trainUpRentLinearLayout"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/trainUpRentListView"
+            android:layout_height="1025dp" />
+
+    </LinearLayout>
+
+</ScrollView>

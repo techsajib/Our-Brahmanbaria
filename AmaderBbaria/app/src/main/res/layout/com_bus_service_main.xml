@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.CommunicationSystem.BusService.BusServiceMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bbtodhakaBus"
+            android:text="ব্রাহ্মণবাড়িয়া থেকে ঢাকা"
+            android:textColor="#f6f7f8"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:id="@+id/dhakatobb"
+            android:text="ঢাকা থেকে ব্রাহ্মণবাড়িয়া"
+            android:textColor="#f6f7f8"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:id="@+id/bbtochittagong"
+            android:text="ব্রাহ্মণবাড়িয়া থেকে চট্টগ্রাম"
+            android:textColor="#f6f7f8"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:id="@+id/chittagongtobb"
+            android:layout_marginTop="8dp"
+            android:text="চট্টগ্রাম থেকে ব্রাহ্মণবাড়িয়া"
+            android:textColor="#f6f7f8"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:id="@+id/bbtosylhet"
+            android:layout_marginTop="8dp"
+            android:text="ব্রাহ্মণবাড়িয়া থেকে সিলেট"
+            android:textColor="#f6f7f8"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:id="@+id/sylhettobb"
+            android:layout_marginTop="8dp"
+            android:text="সিলেট থেকে ব্রাহ্মণবাড়িয়া"
+            android:textColor="#f6f7f8"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowRadius="5"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

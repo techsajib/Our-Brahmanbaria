@@ -1,0 +1,218 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.SocialOrganization.Organization.ShotoKuriFoundation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:gravity="center"
+        android:background="#0b7aa3"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/govthotelImage"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/shotokurifoundation" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="  সংগঠনের নাম: শতকুঁড়ি ফাউন্ডেশন"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#ecebeb"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  প্রতিষ্ঠাকাল: ৬ ডিসেম্বর, ২০১৬"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  কাজের ধরন: সুবিধাবঞ্চিত শিশুদের শিক্ষাদান।"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  কাজের এলাকা: ব্রাহ্মণবাড়িয়া"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  ভলেন্টিয়ার সংখ্যা: ৬০ জন"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="  যোগাযোগ: 01779592684"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ecebeb"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="  ইমেইল: shatakurifoundation@gmail.com"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ecebeb"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/brahmanbariatitle"
+                android:layout_width="match_parent"
+                android:textColor="#f4f6f7"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="শতকুঁড়ি ফাউন্ডেশন"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/brahmanbariaDetails1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/shotokurifoundation1"
+                android:textColor="#f6f7f8"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/brahmanbariaDetails2"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/shotokurifoundation2"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/shotokurifoundation4"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="যোগাযোগ: 01779592684"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/shotokurifoundation3"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:padding="15dp"
+            android:layout_height="100dp">
+
+            <ImageButton
+                android:id="@+id/shotokuriemail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0b7aa3"
+                android:src="@drawable/gmailmain" />
+
+
+            <ImageButton
+                android:id="@+id/shotokurifacebookGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0b7aa3"
+                android:src="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/shotokurifacebookPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0b7aa3"
+                android:src="@drawable/facebookpage" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

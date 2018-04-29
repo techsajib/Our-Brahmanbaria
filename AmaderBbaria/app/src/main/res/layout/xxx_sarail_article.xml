@@ -1,0 +1,252 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154360"
+    tools:context="com.techsajib.amaderbbaria.HomeProfile.TouristPlace.Article.SarailArticle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/firstSarail"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#00BBF0"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"
+                android:padding="12dp"
+                android:text="@string/sarailName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/aarifailMosjid"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/aarifailMosjidDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/aarifailContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/hatirpol"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/hatirpolDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/hatirpolContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/hatkhulaMosjid"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/hatkhulaMosjidDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/hatkhulaMosjidContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/sarailMosjid"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/sarailMosjidDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/sarailMosjidContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/dorontiName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/dorontiNameDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/dorontiNameContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/dighiName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/dighiNameDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/dighiNameContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#F6490D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:text="@string/bjbName"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/bjbNameDetails"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="12dp"
+                android:text="@string/bjbNameContact"
+                android:textColor="#f6f7f8"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#f6f7f8"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/othersSarail"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

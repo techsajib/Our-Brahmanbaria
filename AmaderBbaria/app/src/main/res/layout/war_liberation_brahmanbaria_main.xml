@@ -1,0 +1,163 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.LiberationWarBrahmanbaria.LiberationBrahmanbariaMain">
+
+    <LinearLayout
+        android:id="@+id/liberationWarLinearlayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/liberationWarBrahmanbaria"
+                android:text="মুক্তিযুদ্ধে ব্রাহ্মণবাড়িয়া"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/zilaCommandWar"
+                android:text="জেলা কমান্ড কাউন্সিল"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/sadarCommandWar"
+                android:text="সদর উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/sarailCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="সরাইল উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/ashuganjCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="আশুগঞ্জ উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/nasirnagarCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="নাসিরনগর উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/nabinagarCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="নবীনগর উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/kasbaCommandWar"
+                android:text="কসবা উপজেলা কমান্ড"
+                android:layout_marginTop="8dp"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/bancharampurCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="বাঞ্ছারামপুর উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/akhauraCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="আখাউড়া উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+            <Button
+                android:id="@+id/bijoynagarCommandWar"
+                android:layout_marginTop="8dp"
+                android:text="বিজয়নগর উপজেলা কমান্ড"
+                android:textColor="#f6f7f8"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowRadius="5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

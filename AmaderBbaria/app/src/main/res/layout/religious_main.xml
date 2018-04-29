@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.HomeProfile.ReligiousPlace.ReligiousMain.ReligiousMain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/religiousPlaceLiniearLayout"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/religiousListView"
+            android:layout_width="match_parent"
+            android:layout_height="683dp"/>
+    </LinearLayout>
+
+</ScrollView>

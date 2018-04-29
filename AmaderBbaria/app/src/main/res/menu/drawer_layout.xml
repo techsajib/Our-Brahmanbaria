@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutApplication"
+            android:icon="@drawable/android"
+            android:title="এপ্লিকেশন সম্পর্কে" />
+        <item
+            android:id="@+id/ideaSuggestion"
+            android:icon="@drawable/ideasuggestion"
+            android:title="আইডিয়া ও সাজেশন" />
+        <item
+            android:id="@+id/contributor"
+            android:icon="@drawable/peoples"
+            android:title="উৎসর্গ, কৃতজ্ঞতা ও কন্ট্রিবিউটর" />
+        <item
+            android:id="@+id/aboutMe"
+            android:icon="@drawable/person"
+            android:title="আমার সম্পর্কে" />
+        <item
+            android:id="@+id/detailsApp"
+            android:icon="@drawable/site"
+            android:title="বিস্তারিত জানুন" />
+        <item
+            android:title="Version: 1.0.0" />
+    </group>
+
+
+</menu>

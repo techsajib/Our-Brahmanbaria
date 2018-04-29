@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:gravity="center"
+        android:background="#154360"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trainNumberText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  Train Number"
+            android:layout_marginTop="3dp"
+            android:textColor="#f6f7f8"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/train"
+            android:drawableLeft="@drawable/train"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trainNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  Train Name"
+            android:layout_marginTop="10dp"
+            android:textColor="#f6f7f8"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/train"
+            android:drawableLeft="@drawable/train"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trainWeeklyOffDayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  Train Weekly Off Day"
+            android:layout_marginTop="10dp"
+            android:textColor="#f6f7f8"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/train"
+            android:drawableLeft="@drawable/train"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trainFirstTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Train time"
+            android:textColor="#f6f7f8"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/watchstart"
+            android:drawableLeft="@drawable/watchstart"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/trainSecondTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  BB train Time"
+            android:textColor="#f6f7f8"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/watchstop"
+            android:drawableLeft="@drawable/watchstop"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/trainNoticeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Train Notice"
+            android:textColor="#f6f7f8"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>

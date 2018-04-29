@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:gravity="center"
+        android:background="#154360"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/trainUpNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  Train Name"
+            android:layout_marginTop="3dp"
+            android:textColor="#f6f7f8"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/train"
+            android:drawableLeft="@drawable/train"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="2"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/trainUpACSeatText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/train"
+                android:drawableStart="@drawable/train"
+                android:text="  AC Seat"
+                android:textColor="#f6f7f8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/trainUpSnigdaText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/train"
+                android:drawableStart="@drawable/train"
+                android:text="  Snigda AC"
+                android:textColor="#f6f7f8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="2"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/trainUPFirstClassText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/train"
+                android:drawableStart="@drawable/train"
+                android:text="  First Class"
+                android:textColor="#f6f7f8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/trainUpShovonChairText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/train"
+                android:drawableStart="@drawable/train"
+                android:text="  Shovon Chair"
+                android:textColor="#f6f7f8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="2"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/trainUpShovonText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/train"
+                android:drawableStart="@drawable/train"
+                android:text="  Shovon"
+                android:textColor="#f6f7f8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/trainUpSholobText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/train"
+                android:drawableStart="@drawable/train"
+                android:text="  Sholob"
+                android:textColor="#f6f7f8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/trainNoticeInfoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  Notice Info"
+            android:layout_marginTop="3dp"
+            android:textColor="#f6f7f8"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

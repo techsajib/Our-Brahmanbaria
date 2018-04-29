@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.DoctorHospital.PrivateHospital.PrivateHospitalMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/privateHospitalLinearLayout"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/privateHospitalListView"
+            android:layout_height="8605dp" />
+
+    </LinearLayout>
+
+</ScrollView>

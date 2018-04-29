@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:background="#0b7aa3"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/designationNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="  পদবী: "
+                    android:layout_marginTop="3dp"
+                    android:textColor="#f6f7f8"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/soldierNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  প্রার্থীর নাম: "
+                    android:textColor="#f6f7f8"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/soldierFatherNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  প্রার্থীর পিতার নাম: "
+                    android:textColor="#f6f7f8"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/soldierAddressText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  প্রার্থীর ঠিকানা: "
+                    android:textColor="#f6f7f8"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154360"
+    tools:context="com.techsajib.amaderbbaria.EducationInstituteList.QawmiMadrasa.QawmiMadrasaMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/second"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#00BBF0"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:text="কওমি মাদরাসা"
+                android:textAlignment="center"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/brahmanbariaDetails1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="12dp"
+                    android:text="@string/qawmi1"
+                    android:textColor="#f6f7f8"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/brahmanbariaDetails2"
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:textColor="#f6f7f8"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/qawmi2"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/brahmanbariaDetails3"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:textColor="#f6f7f8"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/qawmi3"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:textColor="#f6f7f8"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/qawmi4"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa2"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa3"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa4"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa5"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa6"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa8"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa9"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa10"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa11"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa12"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa13"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa14"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="#f6f7f8"
+                    android:text="@string/madrasa15"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

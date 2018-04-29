@@ -1,0 +1,354 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsajib.amaderbbaria.PoliceStation.PoliceCircle.PoliceCircleMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সদর সার্কেল"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  মোহাম্মদ রেজাউল কবির"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  অতিরিক্ত পুলিশ সুপার (সদর সার্কেল)"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সার্কেল: সদর মডেল থানা, বিজয়নগর থানা "
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policestation"
+                android:drawableLeft="@drawable/policestation"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-373727"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:id="@+id/bbphone"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নবীনগর সার্কেল"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  চিত্ত রঞ্জন পাল"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  অতিরিক্ত পুলিশ সুপার (নবীনগর সার্কেল)"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সার্কেল: নবীনগর থানা, বাঞ্ছারামপুর থানা"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policestation"
+                android:drawableLeft="@drawable/policestation"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801713-373728"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="কসবা সার্কেল"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আবদুল করিম"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  অতিরিক্ত পুলিশ সুপার (কসবা সার্কেল)"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সার্কেল: কসবা থানা, আখাউড়া থানা"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policestation"
+                android:drawableLeft="@drawable/policestation"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="  +8801769-691940"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  akarimju@gmail.com"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#2c6078"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সরাইল সার্কেল"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  মো: মনিরুজ্জামান ফকির"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/policeman"
+                android:drawableLeft="@drawable/policeman"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সহকারি পুলিশ সুপার (সরাইল সার্কেল)"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/star"
+                android:drawableLeft="@drawable/star"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  সার্কেল: সরাইল, আশুগঞ্জ ও নাসিরনগর থানা"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/policestation"
+                android:drawableLeft="@drawable/policestation"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  monirbcs30.police@gmail.com"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  www.brahmanbaria.police.gov.bd"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/website"
+                android:drawableLeft="@drawable/website"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

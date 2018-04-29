@@ -1,0 +1,528 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f6f7f8"
+    tools:context="com.techsajib.amaderbbaria.HomeProfile.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/firstHome"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/zela_cardview"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/zilamainlogo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="জেলা সম্পর্কিত তথ্য"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/upozila_cardview"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/locationmain"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/locationmain" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="উপজেলা ও ইউনিয়ন"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondHome"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/liberationWarBrahmanbaria"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/districtLogo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/warmain" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="মুক্তিযুদ্ধে ব্রাহ্মণবাড়িয়া"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/sangshadChairman"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/fffacebook"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/parlamentmember" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="সাংসদ ও চেয়ারম্যান"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdHome"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/famouspeople_cardview"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/famouspeople" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="বিখ্যাত ব্যক্তিত্ব"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/educationInstitute_cardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/university" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="শিক্ষা প্রতিষ্ঠান"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/forthHome"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hospitalCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/hospitalmain" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="ডাক্তার ও হাসপাতাল"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/communicationCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/communication" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="যোগাযোগ ব্যবস্থা"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fithHome"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/thanaPoliceCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/policestationmain" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="থানা ও পুলিশ"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fireServiceCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/fireservicestation" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="ফায়ার সার্ভিস"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sixthHome"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/officeBankCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/officespecial" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="গুরুত্বপূর্ণ অফিস"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/socialOrganizationCardView"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/organization" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="সোশ্যাল অর্গানাইজেশন"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/news"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/onlineportal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="অনলাইন নিউজ"
+                        android:textColor="#000"
+                        android:layout_marginTop="4dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
